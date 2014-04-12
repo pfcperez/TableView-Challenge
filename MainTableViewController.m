@@ -58,10 +58,10 @@
     
     if (section==0) {
         return 2;
-    }if (section==1) {
+    }else if (section==1) {
         return 1;
     }
-    if (section==3) {
+  else  {
         return 3;
     }
     
